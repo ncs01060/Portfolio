@@ -1,0 +1,118 @@
+.bord {
+  margin-top: 200px;
+  color: black;
+  width: 800px;
+  border-radius: 30px;
+  background-color: #f4f2ec;
+  height: 300px;
+  float: left;
+  box-shadow: 5px -10px 10px rgba(78, 78, 78, 0.4),
+    /* 오른쪽 위 */ 10px -20px 10px rgba(106, 106, 106, 0.2); /* 오른쪽 위 */
+}
+
+.profile {
+  margin-top: 100px;
+
+  color: black;
+  height: 700px;
+  width: 550px;
+  background-color: #f4f2ec;
+  float: right;
+  text-align: center;
+  border-radius: 10px;
+  color: var(--blue-font-color);
+}
+
+.bordr {
+  color: black;
+  width: 500px;
+  margin-right: 80px;
+  border-radius: 30px;
+  background-color: #f4f2ec;
+  height: 300px;
+  float: right;
+  box-shadow: 5px -10px 10px rgba(78, 78, 78, 0.4),
+    /* 오른쪽 위 */ 10px -20px 10px rgba(106, 106, 106, 0.2); /* 오른쪽 위 */
+}
+
+.main h1 {
+  text-align: center;
+}
+
+.bord h1 {
+  text-align: center;
+}
+
+.text {
+  padding: 10px;
+}
+
+.pythonImage {
+  width: 70px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px;
+  transform: rotate(10deg);
+  transition: transform 0.5s ease; /* Spacing above the image */
+}
+
+.pythonImage:hover {
+  transform: scale(1.2); /* Spacing above the image */
+}
+
+.bord {
+  position: relative; /* Ensure relative positioning for children */
+}
+
+.overlay {
+  position: fixed; /* Cover the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+  display: flex; /* Center the alert box */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  z-index: 1000; /* Ensure it is on top of other content */
+  opacity: 0; /* Start as invisible */
+  transition: opacity 0.5s ease; /* Fade-in effect */
+  animation: fadeIn 0.5s forwards; /* Trigger fade-in animation */
+}
+
+.alertBox {
+  background-color: white;
+  color: var(--blue-font-color);
+  padding: 20px;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  text-align: center; /* Center text */
+  opacity: 0; /* Start as invisible */
+  transition: opacity 0.5s ease; /* Fade-in effect */
+  animation: fadeInAlert 0.5s forwards; /* Trigger fade-in animation */
+}
+
+.dismissButton {
+  background-color: var(--blue-font-color);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.dismissButton:hover {
+  background-color: #f5c6cb;
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Fade to fully visible */
+  }
+}
+
+@keyframes fadeInAlert {
+  to {
+    opacity: 1; /* Fade to fully visible */
+  }
+}
