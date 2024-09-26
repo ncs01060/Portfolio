@@ -13,3 +13,9 @@ body {
   --lightsky-font-color: #99d0e2;
   /* CSS 전역 변수 선언 */
 }
+
+hr {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #bbb inset;
+}

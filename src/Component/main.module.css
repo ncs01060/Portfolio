@@ -1,4 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Hi+Melody&family=Nanum+Brush+Script&display=swap");
 .bord {
+  color: black;
+  width: 800px;
+  border-radius: 30px;
+  background-color: #f4f2ec;
+  height: 300px;
+  margin-bottom: 300px;
+  float: left;
+  box-shadow: 5px -10px 10px rgba(78, 78, 78, 0.4),
+    /* 오른쪽 위 */ 10px -20px 10px rgba(106, 106, 106, 0.2); /* 오른쪽 위 */
+}
+
+.bord2 {
   margin-top: 200px;
   color: black;
   width: 800px;
@@ -6,8 +19,20 @@
   background-color: #f4f2ec;
   height: 300px;
   float: left;
-  box-shadow: 5px -10px 10px rgba(78, 78, 78, 0.4),
-    /* 오른쪽 위 */ 10px -20px 10px rgba(106, 106, 106, 0.2); /* 오른쪽 위 */
+}
+
+.bord2 h1 {
+  text-align: center;
+  font-family: "Hi Melody", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bord2 h3 {
+  text-align: center;
+  font-family: "Hi Melody", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .profile {
@@ -21,6 +46,10 @@
   text-align: center;
   border-radius: 10px;
   color: var(--blue-font-color);
+}
+
+.height {
+  margin-top: 1200px;
 }
 
 .bordr {
@@ -37,6 +66,7 @@
 
 .main h1 {
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .bord h1 {
