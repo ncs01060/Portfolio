@@ -21,6 +21,10 @@
   float: left;
 }
 
+.bord2 p {
+  text-align: center;
+}
+
 .bord2 h1 {
   text-align: center;
   font-family: "Hi Melody", sans-serif;

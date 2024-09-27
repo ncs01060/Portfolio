@@ -20,6 +20,7 @@ export default function Queue() {
 
   return (
     <div className={styles.bord2}>
+      <p>오늘의 명언</p>
       <h1>"{data.message}"</h1>
       <h3>{data.author}</h3>
     </div>
